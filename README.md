@@ -12,7 +12,7 @@ http://bbs.pcbeta.com/viewthread-1749596-1-1.html
 
 配置信息-图片来自远景论坛
 
-### ~~无线intel ac3165 无解
+### ~~无线intel ac3165 无解~~
 ### 已使用宽带运行商送的usb无线网卡，芯片ralink 5370。
 
 ## 说明
