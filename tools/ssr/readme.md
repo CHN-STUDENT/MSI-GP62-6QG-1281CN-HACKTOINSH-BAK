@@ -51,7 +51,7 @@ Your config looks like this:
 }
 ```
 ## Create a start script
-    vim ssr.sh
+    sudo vim ssr.sh
 It looks like this:
 ```bash
 #!/bin/bash
