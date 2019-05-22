@@ -12,9 +12,7 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
-				<key>FixShutdown_0004</key>
-				<true/>
-				<key>NewWay_80000000</key>
+				<key>FixShutdown</key>
 				<true/>
 			</dict>
 			<key>Patches</key>
@@ -36,6 +34,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>AirPortBrcm4360 - PCI Error 3</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					g33EBHQG
@@ -48,6 +48,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>Cosmetic Fix "Unknown -&gt; AirPort</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					axAAAHUN
@@ -60,6 +62,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change EHC2 to EH02</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUhDMg==
@@ -72,6 +76,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change MEI to IMEI</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					TUVJXw==
@@ -84,6 +90,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>AirPortBrcm4360 - PCI Error 1</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					QTnEdRs=
@@ -96,6 +104,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X09TSQ==
@@ -122,6 +132,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>AirPortBrcm4360 - PCI Error 2</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					QQ+3zTnBdQw=
@@ -134,6 +146,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change HECI to IMEI</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					SEVDSQ==
@@ -146,6 +160,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>AirPortBrcm4360 - fcvo, 10.12.x (credit the-darkvoid)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					gflSqgAAdSk=
@@ -158,6 +174,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>AirPortBrcm4360 whitelist patch (board-id), 10.12.dp1, credit RehabMan</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					MdtMO33YdRI=
@@ -170,6 +188,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change EHC1 to EH01</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUhDMQ==
@@ -227,7 +247,18 @@
 			<key>DropOem</key>
 			<false/>
 			<key>Generate</key>
-			<false/>
+			<dict>
+				<key>APLF</key>
+				<true/>
+				<key>APSN</key>
+				<true/>
+				<key>CStates</key>
+				<false/>
+				<key>PStates</key>
+				<false/>
+				<key>PluginType</key>
+				<true/>
+			</dict>
 			<key>PluginType</key>
 			<integer>1</integer>
 		</dict>
@@ -261,7 +292,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 kext-dev-mode=1</string>
+		<string>kext-dev-mode=1 abm_firstpolldelay=4500 dart=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -282,6 +313,8 @@
 			<dict>
 				<key>Device</key>
 				<string>IntelGFX</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Key</key>
 				<string>AAPL00,PanelPowerOn</string>
 				<key>Value</key>
@@ -292,6 +325,8 @@
 			<dict>
 				<key>Device</key>
 				<string>IntelGFX</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Key</key>
 				<string>AAPL00,PanelPowerUp</string>
 				<key>Value</key>
@@ -302,6 +337,8 @@
 			<dict>
 				<key>Device</key>
 				<string>IntelGFX</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Key</key>
 				<string>AAPL00,PanelPowerOff</string>
 				<key>Value</key>
@@ -312,6 +349,8 @@
 			<dict>
 				<key>Device</key>
 				<string>IntelGFX</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Key</key>
 				<string>graphic-options</string>
 				<key>Value</key>
@@ -322,6 +361,8 @@
 			<dict>
 				<key>Device</key>
 				<string>IntelGFX</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Key</key>
 				<string>hda-gfx</string>
 				<key>Value</key>
@@ -330,6 +371,8 @@
 			<dict>
 				<key>Device</key>
 				<string>IntelGFX</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Key</key>
 				<string>AAPL,GfxYTile</string>
 				<key>Value</key>
@@ -340,6 +383,8 @@
 			<dict>
 				<key>Device</key>
 				<string>IntelGFX</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Key</key>
 				<string>AAPL00,PanelPowerDown</string>
 				<key>Value</key>
@@ -350,6 +395,8 @@
 			<dict>
 				<key>Device</key>
 				<string>IntelGFX</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Key</key>
 				<string>AAPL,Gfx324</string>
 				<key>Value</key>
@@ -360,6 +407,8 @@
 			<dict>
 				<key>Device</key>
 				<string>IntelGFX</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Key</key>
 				<string>AAPL00,PanelCycleDelay</string>
 				<key>Value</key>
@@ -371,7 +420,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>3</string>
+			<string>No</string>
 		</dict>
 		<key>Properties</key>
 		<dict>
@@ -471,6 +520,22 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
+		<key>EDID</key>
+		<dict>
+			<key>Custom</key>
+			<data>
+			AP///////wBMg0wyAAAAAAAXAQSVIhN4Cs6FnltMlCYXUFQAAAAB
+			AQEBAQEBAQEBAQEBAQEB3DeAoHA4QEAwICUAWMIQAAAZAAAADwAA
+			AAAAAAAAAB6CEFIAAAAA/gBTQU1TVU5HCiAgICAgAAAA/gAxNTZI
+			TDAxLTEwNAogAM8=
+			</data>
+			<key>Inject</key>
+			<true/>
+			<key>ProductID</key>
+			<string>0xC</string>
+			<key>VendorID</key>
+			<string>0x834C</string>
+		</dict>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -487,9 +552,9 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>AppleRTC</key>
+		<key>AppleIntelCPUPM</key>
 		<true/>
-		<key>AsusAICPUPM</key>
+		<key>AppleRTC</key>
 		<true/>
 		<key>Debug</key>
 		<false/>
@@ -498,8 +563,6 @@
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
 		</array>
 		<key>KernelCpu</key>
-		<false/>
-		<key>KernelHaswellE</key>
 		<false/>
 		<key>KernelLapic</key>
 		<true/>
@@ -524,15 +587,21 @@
 				</data>
 			</dict>
 		</array>
+		<key>KernelXCPM</key>
+		<false/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
 				<key>Comment</key>
 				<string>Second stage patch</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				AQAAdSU=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>IOGraphicsFamily</string>
 				<key>Replace</key>
@@ -543,10 +612,14 @@
 			<dict>
 				<key>Comment</key>
 				<string>Disable minStolenSize less or equal fStolenMemorySize assertion, 10.11.4 ( (based on Austere.J patch)</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				QTnEdio=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
@@ -557,10 +630,14 @@
 			<dict>
 				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				AEFQUExFIFNTRAA=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
@@ -571,10 +648,14 @@
 			<dict>
 				<key>Comment</key>
 				<string>0x0a260006 9MB cursor bytes patch</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				BgAmCgEDAwMAAAACAAAwAQAAYAA=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
@@ -591,6 +672,8 @@
 				<data>
 				AEFQUExFIFNTRAA=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
