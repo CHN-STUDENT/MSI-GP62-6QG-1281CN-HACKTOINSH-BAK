@@ -1,6 +1,11 @@
-# MSI-GP62–6QG-1081XCN-HACKTOINSH-BAK
-### 微星 GP62-6QG-1081XCN 国行 黑苹果备份
-### Mac OS Serra 10.12.5-10.12.6 Used and test passed
+# MSI-GP62–6QG-1281XCN-HACKTOINSH-BAK
+### 微星 GP62-6QG-1281XCN 国行 黑苹果备份
+### 测试使用 Mac OS Mojave 10.14.5 
+
+
+**警告：声卡驱动可能存在问题** 
+
+
 来自：
 
 http://bbs.pcbeta.com/viewthread-1741447-1-1.html
