@@ -147,4 +147,4 @@ socks5 	127.0.0.1 1080
 ## How to use
     chmod a+x ssr.sh
     ./ssr.sh
-    sudo proxychains4 brew install openssl
+    proxychains4 brew install openssl
