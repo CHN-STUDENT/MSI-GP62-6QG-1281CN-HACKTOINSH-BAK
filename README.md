@@ -28,14 +28,19 @@ USB已仿冒，但 type-c 口无法使用，读卡器还没折腾不知道能不
 ### 问题
 
 - 寻找解决喇叭破音方案
+
 - USB-TypeC 无法使用
+
 - 休眠后启动无法使用。
+
 - 后期折腾读卡器和完美触控板
 
 ### 鸣谢
 
 > https://github.com/chuxubank/MSI-GP62-Hackintosh
+
 > https://github.com/ForceGT/Hackintosh--MSIGL62M-7RDX
+
 > https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX
 
 
