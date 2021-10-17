@@ -3,17 +3,23 @@
 ### OpenCore 0.7.4 + BigSur 12.6
 
 
-!()[screen.png]
+![](https://github.com/CHN-STUDENT/MSI-GP62-6QG-1281CN-HACKTOINSH-BAK/blob/master/screen.png)
 
 ### 说明
 
 显卡使用 hackintool 打补丁，使用 SMBios MacPro13.3 与 0x191B0000 平台 ID，核心显卡可硬件加速，独显屏蔽。
+
 声卡 ALC899，输出选 98 或 99 均可，开机喇叭会破音一次。
+
 有线网卡可正常驱动，Wifi 和 蓝牙我换了 94352z （DW1560）可正常使用
+
 屏幕亮度可调节，部分快捷键可正常使用。
+
 USB已仿冒，但 type-c 口无法使用，读卡器还没折腾不知道能不能用。
+
 无法正常进行休眠
-完美触控板也没做。
+
+触控板可以用，但完美触控板也没做。
 
 ### BIOS 设置
 
