@@ -1,6 +1,6 @@
 # MSI-GP62–6QG-1281XCN-HACKTOINSH-BAK
 ### 微星 GP62-6QG-1281XCN 国行 黑苹果备份
-### OpenCore 0.7.4 + BigSur 12.6
+### OpenCore 0.7.4 + BigSur 11.6
 
 
 ![](https://github.com/CHN-STUDENT/MSI-GP62-6QG-1281CN-HACKTOINSH-BAK/blob/master/screen.png)
