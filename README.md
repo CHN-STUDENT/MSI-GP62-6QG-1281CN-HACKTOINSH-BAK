@@ -1,32 +1,39 @@
 # MSI-GP62–6QG-1281XCN-HACKTOINSH-BAK
 ### 微星 GP62-6QG-1281XCN 国行 黑苹果备份
-### 测试使用 Mac OS Mojave 10.14.5 
+### OpenCore 0.7.4 + BigSur 12.6
 
 
-**警告：声卡驱动可能存在问题** 
+!()[screen.png]
+
+### 说明
+
+显卡使用 hackintool 打补丁，使用 SMBios MacPro13.3 与 0x191B0000 平台 ID，核心显卡可硬件加速，独显屏蔽。
+声卡 ALC899，输出选 98 或 99 均可，开机喇叭会破音一次。
+有线网卡可正常驱动，Wifi 和 蓝牙我换了 94352z （DW1560）可正常使用
+屏幕亮度可调节，部分快捷键可正常使用。
+USB已仿冒，但 type-c 口无法使用，读卡器还没折腾不知道能不能用。
+无法正常进行休眠
+完美触控板也没做。
+
+### BIOS 设置
+
+请参考 https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX#older_man-bios-configuration 
+
+### 问题
+
+- 寻找解决喇叭破音方案
+- USB-TypeC 无法使用
+- 休眠后启动无法使用。
+- 后期折腾读卡器和完美触控板
+
+### 鸣谢
+
+> https://github.com/chuxubank/MSI-GP62-Hackintosh
+> https://github.com/ForceGT/Hackintosh--MSIGL62M-7RDX
+> https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX
 
 
-来自：
 
-http://bbs.pcbeta.com/viewthread-1741447-1-1.html
-
-http://bbs.pcbeta.com/viewthread-1749596-1-1.html
-
-## 配置信息
-![配置信息-图片来自远景论坛](http://bbs.pcbeta.com/data/attachment/forum/201705/19/224653m8qjhbj77qyf88ke.png)
-
-配置信息-图片来自远景论坛
-
-### ~~无线intel ac3165 无解~~
-### ~~已使用宽带运行商送的usb无线网卡，芯片ralink 5370。~~
-### 已经更换成bcm94352z驱动成功。
-
-## 说明
-kext驱动安装到s/l/e
-
-使用clover最新版u盘引导
-
-使用上面的dsdt+ssdt配置文件
 
 
 
