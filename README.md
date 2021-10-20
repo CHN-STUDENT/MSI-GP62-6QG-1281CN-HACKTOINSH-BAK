@@ -48,9 +48,6 @@ USB已仿冒均可正常使用，读卡器还没折腾不知道能不能用。
 > https://github.com/ForceGT/Hackintosh--MSIGL62M-7RDX
 
 
-> https://github.com/ForceGT/Hackintosh--MSIGL62M-7RDX
-
-
 > https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX
 
 
