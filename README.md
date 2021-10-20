@@ -3,7 +3,7 @@
 ### OpenCore 0.7.4 + BigSur 12.6
 
 
-!()[screen.png]
+!()[screen.pngRRRt]
 
 ### 说明
 
@@ -11,10 +11,7 @@
 声卡 ALC899，输出选 98 或 99 均可，开机喇叭会破音一次。
 有线网卡可正常驱动，Wifi 和 蓝牙我换了 94352z （DW1560）可正常使用
 屏幕亮度可调节，部分快捷键可正常使用。
-
-~~USB已仿冒，但 type-c 口无法使用~~
-
-所有 USB 端口均已仿冒可正常使用，读卡器还没折腾不知道能不能用。
+USB已仿冒均可正常使用，读卡器还没折腾不知道能不能用。
 无法正常进行休眠
 完美触控板也没做。
 
@@ -34,6 +31,7 @@
 > https://github.com/chuxubank/MSI-GP62-Hackintosh
 > https://github.com/ForceGT/Hackintosh--MSIGL62M-7RDX
 > https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX
+
 
 
 
