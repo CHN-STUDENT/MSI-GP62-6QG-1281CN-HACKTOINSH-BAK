@@ -3,7 +3,7 @@
 ### OpenCore 0.7.4 + BigSur 12.6
 
 
-!()[screen.png]
+!()[./screen.png]
 
 ### 说明
 
